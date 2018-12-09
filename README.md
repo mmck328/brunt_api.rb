@@ -1,4 +1,5 @@
 # BruntAPI
+[![Gem Version](https://badge.fury.io/rb/brunt_api.svg)](https://badge.fury.io/rb/brunt_api)
 
 This is an unofficial Ruby binding for Brunt API. Ported from [JS binding by MattJeanes](https://github.com/MattJeanes/brunt-api).
 
