@@ -9,19 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mmck328"]
   spec.email         = ["edamame1010@hotmail.co.jp"]
 
-  spec.summary       = "A Ruby binding of unofficial API of Brunt (e.g. Blind Engine)"
-  spec.description   = "This is a Ruby binding of unofficial API of Brunt (e.g. Blind Engine). Ported from JS binding by MattJeanes https://github.com/MattJeanes/brunt-api"
+  spec.summary       = "An unofficial Ruby binding for Brunt API (e.g. Blind Engine)"
+  spec.description   = "This is an unofficial Ruby binding of Brunt API (e.g. Blind Engine). Ported from JS binding by MattJeanes https://github.com/MattJeanes/brunt-api"
   spec.homepage      = "https://github.com/mmck328/brunt_api.rb"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
